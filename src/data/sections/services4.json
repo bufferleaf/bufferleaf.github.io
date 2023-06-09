@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Software Development",
+        "icon": "pe-7s-gleam",
+        "content": "We specialize in software development, creating innovative and scalable applications that empower your organization and drive success. With our expertise, we deliver tailored solutions that optimize processes, enhance efficiency, and propel your business towards its goals."
+    },
+    {
+      "id": 2,
+      "title": "AI / Machine Learning",
+      "icon": "pe-7s-magic-wand",
+      "content": "Our AI and machine learning development services leverage advanced algorithms and data analysis to deliver transformative solutions that optimize processes and drive intelligent decision-making for your business."
+    },
+    {
+      "id": 3,
+      "title": "Web & App Development",
+      "icon": "pe-7s-phone",
+      "content": "Our web and app development services create captivating websites and feature-rich applications, utilizing the latest technologies to deliver seamless user experiences and optimal performance."
+    }
+]
