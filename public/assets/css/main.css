@@ -2545,7 +2545,7 @@ h6 {
 }
 
 .cursor-pointer {
-  cursor: pointer;
+  cursor: none !important;
 }
 
 .touch-auto {
