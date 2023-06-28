@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }) => {
         <link rel="stylesheet" href="assets/css/plugins.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
-        <title>hadl.io</title>
+        <title>hadl.io </title>
       </Head>
       <Component {...pageProps} />
     </State>
