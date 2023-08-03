@@ -12,12 +12,12 @@ const Home = () => {
           {/*<h3 className="name text-white-color text-[72px] font-bold uppercase mb-[20px]">
             David <span className="text-pink-color">Parker</span>
           </h3>*/}
-          <img src={anim.src} />
-          <h3 className="job text-[25px] font-medium text-main-color mb-[40px]">
+          <img  style={{marginTop: "-300px"}} src={anim.src} />
+          <h3 style={{marginTop: "-280px"}} className="job text-[25px] font-medium text-main-color mb-[40px]">
             <AnimatedText />
           </h3>
           <div className="edrea_tm_button transition_link">
-            <a href="#">
+            <a style={{color:'#08352B'}} href="#">
               Logga in
             </a>
           </div>

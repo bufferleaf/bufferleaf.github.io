@@ -2545,7 +2545,7 @@ h6 {
 }
 
 .cursor-pointer {
-  cursor: none !important;
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -4333,7 +4333,7 @@ h6 {
 
 :root {
   --main-color: #a2a2a2;
-  --pink-color: #eb4a4c;
+  --pink-color: #E0E660;
   --white-color: #fff;
 }
 

@@ -11,7 +11,7 @@ const colors = [
   "#9200ee",
   "#00D4BD",
   "#5e9e9f",
-  "#EB4A4C",
+  "#D6EE6D",
   "#666d41",
   "#fe0000",
 ];
@@ -22,7 +22,7 @@ const Setting = () => {
   const { colorChange, getColor, changeCursor, getMagicCursor, megicCursor } =
     colorContext;
   useEffect(() => {
-    getColor("#eb4a4c");
+    getColor("#D6EE6D");
     getMagicCursor("show");
   }, []);
   return (

@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
         {/* PRELOADER */}
         {/* /PRELOADER */}
         {/* WAVE DOTS */}
-        <div className="waves" style={{backgroundColor: '#47141E'}}/>
+        <div className="waves" style={{backgroundColor: '#08352b'}}/>
         {/* WAVE DOTS */}
         {/* SETTINGS */}
         {/* /SETTINGS */}

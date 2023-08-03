@@ -52,7 +52,7 @@ const reducer = (state, action) => {
 const state = (props) => {
   const initialState = {
     nav: "home",
-    color: "#eb4a4c",
+    color: "#D6EE6D",
     magicCursor: "show",
     newsPopup: false,
     newsData: null,
