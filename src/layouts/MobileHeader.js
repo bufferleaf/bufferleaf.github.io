@@ -42,7 +42,7 @@ const MobileHeader = () => {
         className={`edrea_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15]transition-all duration-300 ${
           toggle ? "opened" : ""
         }`}
-        style={{backgroundColor: '#47141E'}}
+        style={{backgroundColor: '#08352B'}}
       >
         <div className="inner relative w-full h-full text-right px-[20px] pt-[50px] pb-[20px]">
           <div className="menu_list w-full h-auto clear-both float-left">
