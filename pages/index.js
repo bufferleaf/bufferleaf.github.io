@@ -21,7 +21,7 @@ const Index = () => {
       <Admin />
       {/* /PORTFOLIO */}
       {/* NEWS */}
-      <News />
+      {/* <News /> */}
       {/* /NEWS */}
       {/* CONTACT */}
       <Contact />

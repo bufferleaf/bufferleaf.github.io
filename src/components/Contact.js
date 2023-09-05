@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div className="edrea_tm_section" id="contact">
       <div className="section_inner" style={{maxWidth:'100%'}}>
-        <div className="edrea_tm_contact w-full h-auto clear-both float-left">
+        <div className="edrea_tm_contact w-full h-auto">
           <center>
           <div className="edrea_tm_main_title" style={{border: 'none'}}> 
             <h3>

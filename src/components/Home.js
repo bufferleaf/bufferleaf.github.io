@@ -9,11 +9,12 @@ const Home = () => {
   return (
     <div className="edrea_tm_section animated" id="home">
       <div className="section_inner">
-        <div className="edrea_tm_home w-full h-auto clear-both float-left text-center">
+        <div className="edrea_tm_home w-full h-auto text-center align-center">
           {/*<h3 className="name text-white-color text-[72px] font-bold uppercase mb-[20px]">
             David <span className="text-pink-color">Parker</span>
           </h3>*/}
           <Lottie
+          style={{display: 'flex', justifyContent: 'center'}}
             options={{
               loop: false,
               autoplay: true,
