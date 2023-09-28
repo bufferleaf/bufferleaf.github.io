@@ -19,9 +19,9 @@ const Home = () => {
               loop: false,
               autoplay: true,
               animationData: animationData,
-              rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice",
-              },
+              // rendererSettings: {
+              //   preserveAspectRatio: "xMidYMid slice",
+              // },
             }}// Set the desired width of your Lottie animation
           />
           <h3 className="job text-[25px] font-medium text-main-color mb-[40px]">

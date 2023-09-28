@@ -1,7 +1,9 @@
 import { useContext } from "react";
+import Image from 'next/image';
+
 import { context } from "../context/context";
 import { menus } from "./menus";
-
+import logo from "../../public/assets/img/logo/logo.svg"
 const Header = () => {
   const navContext = useContext(context);
   const { nav, changeNav } = navContext;
@@ -13,10 +15,11 @@ const Header = () => {
       <div className="header_inner w-full h-auto float-left pt-[40px] flex items-center justify-between">
         <div className="logo">
           <a href="#" onClick={() => changeNav("home")}>
-            <img
+            <Image
               className="max-w-[100px]"
-              src="assets/img/logo/logo.png"
-              alt=""
+              priority
+              src={logo}
+              alt="Follow us on Twitter"
             />
           </a>
         </div>

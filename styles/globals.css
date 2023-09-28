@@ -4,7 +4,7 @@
 }
 @media (max-width: 1040px) {
   .edrea_tm_content {
-    z-index: 99;
+    /* z-index: 99; */
   }
 }
 .edrea_tm_button .a {

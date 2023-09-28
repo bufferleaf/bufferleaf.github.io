@@ -1,6 +1,8 @@
 import { Fragment, memo, useContext, useState } from "react";
 import { context } from "../context/context";
 import { menus } from "./menus";
+import Image from 'next/image';
+import logo from '../../public/assets/img/logo/logo.svg'
 const MobileHeader = () => {
   const [toggle, setToggle] = useState(false);
   const navContext = useContext(context);
@@ -18,18 +20,19 @@ const MobileHeader = () => {
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between pb-0 pt-[0px] px-[20px]">
           <div className="logo">
             <a href="#" onClick={() => changeNav("home")}>
-              <img
+
+              <Image
                 className="max-w-[200px] max-h-[70px]"
-                src="assets/img/logo/logo.png"
-                alt=""
+                priority
+                src={logo}
+                alt="Follow us on Twitter"
               />
             </a>
           </div>
           <div className="trigger">
             <div
-              className={`hamburger hamburger--slider ${
-                toggle ? "is-active" : ""
-              }`}
+              className={`hamburger hamburger--slider ${toggle ? "is-active" : ""
+                }`}
             >
               <div className="hamburger-box" onClick={() => setToggle(!toggle)}>
                 <div className="hamburger-inner" />
@@ -39,10 +42,9 @@ const MobileHeader = () => {
         </div>
       </div>
       <div
-        className={`edrea_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15]transition-all duration-300 ${
-          toggle ? "opened" : ""
-        }`}
-        style={{backgroundColor: '#08352B'}}
+        className={`edrea_tm_mobile_menu fixed top-[50px] right-[-200px] h-[100vh] w-[200px] z-[15]transition-all duration-300 ${toggle ? "opened" : ""
+          }`}
+        style={{ backgroundColor: '#08352B' }}
       >
         <div className="inner relative w-full h-full text-right px-[20px] pt-[50px] pb-[20px]">
           <div className="menu_list w-full h-auto clear-both float-left">

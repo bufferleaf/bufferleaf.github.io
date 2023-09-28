@@ -1,8 +1,8 @@
-import Rum from "../src/components/Rum";
+import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import Home from "../src/components/Home";
 import News from "../src/components/News";
-import Events from "../src/components/Events";
+import Parents from "../src/components/Parents";
 import Layout from "../src/layouts/Layout";
 import Admin from "../src/layouts/Admin";
 const Index = () => {
@@ -12,17 +12,18 @@ const Index = () => {
       <Home />
       {/* /HOME */}
       {/* ABOUT */}
-      <Rum />
+      <About />
       {/* /ABOUT */}
+      {/* NEWS */}
+      <News />
+      {/* /NEWS */}
       {/* PORTFOLIO */}
-      <Events />
+      <Parents />
       {/* /PORTFOLIO */}
       {/* NEWS */}
       <Admin />
       {/* /PORTFOLIO */}
-      {/* NEWS */}
-      {/* <News /> */}
-      {/* /NEWS */}
+
       {/* CONTACT */}
       <Contact />
       {/* /CONTACT */}

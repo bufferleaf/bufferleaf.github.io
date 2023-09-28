@@ -1,7 +1,6 @@
 export const menus = [
-  { name: "Rum", href: "rum" },
-  { name: "Events", href: "events" },
-  { name: "Moderering", href: "moderator" },
-  // { name: "Nyheter", href: "news" },
-  { name: "Kontakt", href: "contact" },
+  { name: "Om", href: "about" },
+  { name: "Nyheter", href: "news" },
+  { name: "Nyfikna föräldrar", href: "parents" },
+  { name: "Support", href: "contact" },
 ];

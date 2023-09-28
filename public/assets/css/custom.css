@@ -23,6 +23,13 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+.faq_section{
+    margin-top: 50px;
+}
+
+.faq_item{
+    margin: 30px;
+}
 #preloader:after{
     left: auto;
     right: 0;

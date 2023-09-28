@@ -1,27 +1,16 @@
 const Contact = () => {
   return (
     <div className="edrea_tm_section" id="contact">
-      <div className="section_inner" style={{maxWidth:'100%'}}>
-        <div className="edrea_tm_contact w-full h-auto">
-          <center>
-          <div className="edrea_tm_main_title" style={{border: 'none'}}> 
+      <div className="section_inner" style={{ maxWidth: '100%' }}>
+        <div className="edrea_tm_contact w-full h-auto flex flex-col justify-center text-center">
+          <div className="edrea_tm_main_title mt-20" style={{ border: 'none' }}>
             <h3>
-              noah.oberg<span className="text-pink-color" >@bufferleaf.se</span>
+              support<span className="text-pink-color" >@bufferleaf.se</span>
             </h3>
           </div>
-          <div className="edrea_tm_main_title" style={{border: 'none'}}>
-            <h3>
-              simon.rickardsson<span className="text-pink-color">@bufferleaf.se</span>
-            </h3>
-          </div>
-          <div className="edrea_tm_main_title" style={{border: 'none'}}>
-            <h3>
-              hampus.eriksson<span className="text-pink-color">@bufferleaf.se</span>
-            </h3>
-          </div>
-          </center>
-          {/*<div className="wrapper w-full h-auto clear-both float-left flex pt-[60px]">
-            <div className="left w-1/2 pr-[50px]">
+
+          <div className="wrapper w-full h-auto flex justify-center pt-[60px]">
+            {/* <div className="left w-1/2 pr-[50px]">
               <ul className="m-0 list-none">
                 <li className="mb-[20px] w-full float-left">
                   <div className="list_inner w-full h-auto clear-both float-left relative bg-[#222] rounded-[10px] p-[10px]">
@@ -76,8 +65,8 @@ const Contact = () => {
                   </div>
                 </li>
               </ul>
-            </div>
-            <div className="right w-1/2 pl-[50px]">
+            </div> */}
+            {/* <div className=" ">
               <div className="fields w-full h-auto clear-both float-left">
                 <form
                   action="/"
@@ -97,7 +86,7 @@ const Contact = () => {
                             className="w-full h-[45px] bg-transparent border-none text-main-color p-[20px] font-poppins"
                             id="name"
                             type="text"
-                            placeholder="Name"
+                            placeholder="Namn"
                             autoComplete="off"
                           />
                         </div>
@@ -119,19 +108,47 @@ const Contact = () => {
                     <textarea
                       className="w-full h-[108px] bg-transparent border-none text-main-color resize-none p-[20px] font-poppins"
                       id="message"
-                      placeholder="Message"
+                      placeholder="Meddelande"
                       defaultValue={""}
                     />
                   </div>
                   <div className="edrea_tm_button">
-                    <a id="send_message" href="#">
-                      Send Message
+                    <a style={{ color: "black" }} id="send_message" href="#">
+                      Skicka meddelande
                     </a>
                   </div>
                 </form>
               </div>
+            </div> */}
+          </div>
+          <div className="faq_section text-left">
+            <h3>Vanliga frågor och svar</h3>
+            <div className="faq_item">
+              <h4>Min kommun finns inte...</h4>
+              <p>Kontakta då oss eller be din förälder / fritidsledare att skriva så gör vi vad vi kan. Målet är att alla ungdomar i Sverige ska ha tillgång till en plats online</p>
             </div>
-  </div>*/}
+            <div className="faq_item">
+              <h4>Hur kan jag kontakta er om jag har frågor eller behöver stöd?</h4>
+              <p>Du kan alltid kontakta vårt supportteam via e-post på support@digitalfritidsgard.se. Vi finns här för att hjälpa dig med alla dina frågor och bekymmer.</p>
+            </div>
+            <div className="faq_item">
+              <h4>Vad är en digital fritidsgård?</h4>
+              <p>En digital fritidsgård är en onlineplattform där unga människor kan delta i olika aktiviteter, interagera med andra och få stöd och vägledning från ledare och mentorer.</p>
+            </div>
+            <div className="faq_item">
+              <h4>Hur kan jag ansluta till er digitala fritidsgård?</h4>
+              <p>Det är enkelt, du loggar in via din kommuns inlogg t ex BankId eller skolinlogg.</p>
+            </div>
+            <div className="faq_item">
+              <h4>Vilka typer av aktiviteter erbjuder ni?</h4>
+              <p>Vi erbjuder en rad olika aktiviteter, inklusive onlinespel, workshops, kreativa projekt, och mycket mer. Du kan välja det som intresserar dig mest.</p>
+            </div>
+            <div className="faq_item">
+              <h4>Finns det någon åldersgräns för att delta?</h4>
+              <p>Vår digitala fritidsgård är främst riktad till ungdomar och tonåringar. Vanligtvis välkomnar vi medlemmar i åldrarna 12 till 25 år, men åldersgränser kan variera.</p>
+            </div>
+          
+          </div>
         </div>
       </div>
     </div>
