@@ -45,8 +45,8 @@ const About = () => {
     <div className="edrea_tm_section" id="about">
       <div className="flex flex-col mt-10">
         {rowsData.map((rowData, index) => (
-          <div className="edrea_tm_about w-full h-auto clear-both float-left flex mb-20" key={index}>
-            <div className="left w-[50%]">
+          <div className="edrea_tm_about w-full h-auto clear-both float-left flex" style={{marginBottom: 50}} key={index}>
+          <div className="left w-[50%]">
               <div className="image relative">
                 <img
                   className="relative min-w-full opacity-0"
